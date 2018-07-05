@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none
+}
+
+body {
+    font-family: verdana
+}
+
+.error {
+    color: red;
+}
+
+.error-input input[type=text]:focus {
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+.success {
+    color: green;
+}
+
+.headeroption, .footeroption {
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.headeroption a, .footeroption a {
+    color: #d9edf7;
+}
+
+.headeroption a:hover, .footeroption a:hover {
+    color: #eca72e;
+    text-decoration: none;
+}
+
+.headeroption h2, .footeroption h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #FFBDAA;
+    font-family: "fantasy";
+}
+
+.sh-border-right {
+    border-right: solid #802D15;
+}
+
+.sh-info {
+    min-height: 50px;
+}
+
+.bg-darkred {
+    background: #802D15;
+    color: #ffffff;
+}
+
+.bg-anam {
+    background-color: #337ab7bd;
+    color: #ffffff;
+}
+
+.bg-light-blue {
+    background-color: #337AFF;
+    color: #ffffff;
+}
+
+.bg-light-blue a {
+    color: #ddd;
+}
+
+.bg-name-print {
+    background-color: #2e6da4;
+    color: #fff;
+    font-size: 20px;
+    font-family: cursive;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.bg-margin-left {
+    margin-left: 15px;
+}
+
+.bg-margin-right {
+    margin-right: 15px;
+}
+
+.table-cal-total {
+    background-color: #a94442;
+    color: #ffffff;
+}
+
+.vertical-center {
+    vertical-align: center;
+}
+
+.table-condensed {
+    font-size: 12px;
+}
+.todo-list>li .label {
+    margin-left: 10px;
+    font-size: 20px;
+}
